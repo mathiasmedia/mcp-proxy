@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/", "destination": "https://iqxcgazfrydubrvxmnlv.supabase.co/functions/v1/get-public-site-design" },
     { "source": "/:path*", "destination": "https://iqxcgazfrydubrvxmnlv.supabase.co/functions/v1/get-public-site-design/:path*" }
   ]
 }
